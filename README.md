@@ -9,6 +9,6 @@ A demo is not available
 
 ## Screenshots
 
-![App Screenshot](./assets/img/assets/Bildschirmfoto1.png)
-![App Screenshot](./assets/img/assets/Bildschirmfoto2.png)
-![App Screenshot](./assets/img/assets/Bildschirmfoto3.png)
+![App Screenshot](./assets/img/Bildschirmfoto1.png)
+![App Screenshot](./assets/img/Bildschirmfoto2.png)
+![App Screenshot](./assets/img/Bildschirmfoto3.png)
