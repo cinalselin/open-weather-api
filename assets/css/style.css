@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====================== GENERAL STYLING ====================== */
+
+html {
+  font-family: "Albert Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section:last-of-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #eedbc467;
+  border-radius: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1547963802-25f153e14080?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2592&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ====================== FORM ====================== */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+form label {
+  text-align: center;
+  font-weight: 800;
+  color: #fff;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline-color: #a3b5ca;
+}
+
+input[type="text"]::placeholder {
+  color: #a3b5ca;
+}
+
+input[type="submit"] {
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a3b5ca;
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #a3b5ca;
+}
+
+/* ====================== WEATHER SECTION ====================== */
+
+#city {
+  width: 200px;
+}
+
+#todayDate {
+  background-color: #a3b5ca;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+}
+
+#weatherContainer {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+}
+
+#weatherContainer p {
+  text-align: right;
+}
+
+#weatherIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#weatherIcon img {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.weatherIntro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ====================== SEARCH BUTTON ====================== */
+
+#searchButton {
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a3b5ca;
+  color: #fff;
+}
+
+#searchButton:hover {
+  background-color: #fff;
+  color: #a3b5ca;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Weather API</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- ==================== Input field ==================== -->
+    <form id="form">
+        <label for="">What is the weather like?</label>
+        <input type="text" name="city" id="city" placeholder="type your city e.g berlin">
+        <input type="submit" value="search" id="submitBtn">
+    </form>
+    <!-- ==================== Weather section ==================== -->
+    <section>
+        <h1 id="weatherIntro"></h1>
+        <div id="weatherIcon">
+            <h2 id="temperature"></h2>
+        </div>
+        <div class="weatherIntro">
+            <p id="weatherDescr"></p>
+            <p id="todayDate"></p>
+        </div>
+        <div id="weatherContainer">
+            <h3>Local time</h3>
+            <p id="localTime"></p>
+            <h3>Wind</h3>
+            <p id="windDescr"></p>
+            <h3>Cloudiness</h3>
+            <p id="weatherDescr2"></p>
+            <h3>Pressure</h3>
+            <p id="pressure"></p>
+            <h3>Humidity</h3>
+            <p id="humidity"></p>
+            <h3>Sunrise</h3>
+            <p id="sunrise"></p>
+            <h3>Sunset</h3>
+            <p id="sunset"></p>
+        </div>
+        <button id="searchButton">search again</button>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
